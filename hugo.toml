@@ -1,4 +1,4 @@
-baseURL = "https://golvar.netlify.app/"
+baseURL = "https://golvartv.online/"
 languageCode = "tr"
 title = "Yılan Oyunu – Google Yılan Oyunu Oyna | Ücretsiz Yılan Oyunları"
 theme = "Mango"
@@ -7,8 +7,8 @@ theme = "Mango"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Yılan Oyunu oyna! Google Yılan oyununu ücretsiz keşfet, en yüksek skoru yap ve klasik Snake deneyimini mobil veya bilgisayarda hemen ya"
-  keywords = "Yilan oyunu, Google Yilan, Yilan oyunu oyna, Yilan oyunlari, yilan oyunu google,"
+  description = ""
+  keywords = ""
 
 [menu]
   [[menu.main]]

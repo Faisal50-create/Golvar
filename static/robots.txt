@@ -1,8 +1,5 @@
 User-agent: *
 Allow: /
 
-# Admin panel block
-Disallow: /admin/
-
-Sitemap: https://yılanoyunu.online/sitemap.xml
+Sitemap: https://golvartv.online/sitemap.xml
 
