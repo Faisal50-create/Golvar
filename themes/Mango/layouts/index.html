@@ -1030,8 +1030,17 @@
     document.getElementById('prevChannelBtn')?.addEventListener('click', prevChannel);
 
     document.getElementById('apkDownloadBtn')?.addEventListener('click', () => {
-      alert('📲 APK download started. In production, link to your .apk file.');
-    });
+
+    const apkUrl = 'https://apkdownloader.cc/storage/files/2026/08/golvar.tv.apk.v9.8.apk';
+
+    const link = document.createElement('a');
+    link.href = apkUrl;
+    link.download = 'golvar-tv.apk';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+});
 
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
